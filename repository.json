@@ -1,2 +1,40 @@
+// =========================================================
+//  HPM ARCHITECT DEPLOYMENT PARCEL
+// Generated for: Illyena
+// Date: 5/24/2026, 4:00:47 PM
+// =========================================================
+
+/* PRE-FLIGHT VERIFICATION CHECKLIST
+    1. Ensure all 'location' URLs point to the RAW GitHub content.
+    2. Verify 'version' strings match your Groovy code headers.
+    3. Confirm 'payPalUrl' is a valid URL (Venmo/PayPal/BuyMeACoffee).
+    4. Note: If you are an Existing Developer, you only need to 
+       update repository.json and your individual package files. */
+
+// ---------------------------------------------------------
+//  STEP 1: HPM MASTER MANIFESTS (repositories.json)
+// Only required if you are submitting to HPM for the first time.
+// ---------------------------------------------------------
 {
+    "name": "Illyena",
+    "location": "https://raw.githubusercontent.com/Illyena/Hubitat_Package-Manager/main/repository.json"
 }
+
+// ---------------------------------------------------------
+//  STEP 2: INTERMEDIATE MANIFESTS (e.g. repository.json)
+// Upload this to the root of your primary GitHub repository.
+// ---------------------------------------------------------
+{
+    "author": "Illyena (Apache-2.0)",
+    "gitHubUrl": "https://github.com/Illyena/Hubitat_Package-Manager",
+    "payPalUrl": "",
+    "packages": []
+}
+
+// =========================================================
+//  STEP 3: PACKAGE MANIFESTS
+// Create a separate .json file for each package listed below.
+//  Often used are: packageManifest.json or "device name".json
+// Upload these to the GitHub repository adjacent to its .groovy
+// =========================================================
+
